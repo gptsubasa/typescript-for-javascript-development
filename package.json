@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/gptsubasa/typescript-for-javascript-development/issues"
   },
-  "homepage": "https://github.com/gptsubasa/typescript-for-javascript-development#readme"
+  "homepage": "https://github.com/gptsubasa/typescript-for-javascript-development#readme",
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  }
 }
