@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/gptsubasa/typescript-for-javascript-development#readme",
   "devDependencies": {
+    "@types/node": "^16.11.1",
+    "ts-node": "^10.3.0",
     "typescript": "^3.7.5"
   }
 }
