@@ -1,4 +1,5 @@
 import React from 'react';
+import Counter from './Counter';
 
 interface AppProps {
   message?: string;
@@ -14,12 +15,23 @@ interface AppProps {
 // };
 
 // 68. Function Components 初級編
+// const App: React.FunctionComponent<AppProps> = ({ message }) => {
+//   return <div>{message}</div>;
+// };
+// App.defaultProps = {
+//   message: 'Hello, defaultProps!',
+//   description: 'This is App component.',
+// };
+
+
+// 69. useStateと型制約
 const App: React.FunctionComponent<AppProps> = ({ message }) => {
-  return <div>{message}</div>;
+  return (
+    <div>
+      <Counter />
+    </div>
+  );
 };
-App.defaultProps = {
-  message: 'Hello, defaultProps!',
-  description: 'This is App component.',
-};
+
 
 export default App;
