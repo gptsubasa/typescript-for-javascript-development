@@ -1,5 +1,7 @@
 import React from 'react';
-import Counter from './70.Counter';
+// import Counter from './Counter';
+// import Counter from './70.Counter';
+import Counter from './CounterWithReducer';
 
 interface AppProps {
   message?: string;
