@@ -1,8 +1,11 @@
 import React, { useReducer } from 'react';
 
-const initialState = {count: 0};
+type StateType = { counter: number}
+const initialState: StateType = {count: 0};
 
-function reducer(state: any, action: any) {
+type ActionType = { type: 'increment' | 'decrement' };
+
+function reducer(state: StateType, action: ActionType): StateType | never {
   switch (action.type) {
     case 'increment':
       return {count: state.count + 1};
